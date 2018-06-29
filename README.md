@@ -4,7 +4,7 @@
 
 ## 安装
 ```bash
-go get github.com/worldlove/antsdk
+go get github.com/kelvinji2009/antsdk
 ```
 
 ## 使用示例
@@ -12,8 +12,8 @@ go get github.com/worldlove/antsdk
 ```go
 import (
   "fmt"
-  "github.com/worldlove/antsdk/alipay"
-  "github.com/worldlove/antsdk/api/trade"
+  "github.com/kelvinji2009/antsdk/alipay"
+  "github.com/kelvinji2009/antsdk/api/trade"
 )
 
 func main() {
