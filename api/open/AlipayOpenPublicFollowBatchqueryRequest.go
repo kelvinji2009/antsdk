@@ -1,8 +1,8 @@
 package open
 
 import (
-  "github.com/LayGit/antsdk/api"
-  "github.com/LayGit/antsdk/utils"
+  "github.com/kelvinji2009/antsdk/api"
+  "github.com/kelvinji2009/antsdk/utils"
 )
 
 // 获取关注者列表

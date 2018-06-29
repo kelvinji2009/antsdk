@@ -1,7 +1,7 @@
 package trade
 
 import (
-  "github.com/LayGit/antsdk/api"
+  "github.com/kelvinji2009/antsdk/api"
 )
 
 type AlipayTradeRefundResponse struct {

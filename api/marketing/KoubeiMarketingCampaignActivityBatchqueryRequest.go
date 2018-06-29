@@ -1,8 +1,8 @@
 package marketing
 
 import (
-  "github.com/LayGit/antsdk/api"
-  "github.com/LayGit/antsdk/utils"
+  "github.com/kelvinji2009/antsdk/api"
+  "github.com/kelvinji2009/antsdk/utils"
 )
 
 // 口碑营销活动列表查询

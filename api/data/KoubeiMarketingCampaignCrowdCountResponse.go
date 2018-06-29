@@ -1,7 +1,7 @@
 package data
 
 import (
-  "github.com/LayGit/antsdk/api"
+  "github.com/kelvinji2009/antsdk/api"
 )
 
 type KoubeiMarketingCampaignCrowdCountResponse struct {

@@ -1,8 +1,8 @@
 package zhima
 
 import (
-  "github.com/LayGit/antsdk/api"
-  "github.com/LayGit/antsdk/utils"
+  "github.com/kelvinji2009/antsdk/api"
+  "github.com/kelvinji2009/antsdk/utils"
 )
 
 // 批量数据反馈服务

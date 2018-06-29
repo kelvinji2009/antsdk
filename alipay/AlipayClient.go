@@ -13,8 +13,8 @@ import (
   "time"
   "bytes"
 
-  "github.com/LayGit/antsdk/utils"
-  "github.com/LayGit/antsdk/api"
+  "github.com/kelvinji2009/antsdk/utils"
+  "github.com/kelvinji2009/antsdk/api"
 )
 
 type AlipayClient struct {

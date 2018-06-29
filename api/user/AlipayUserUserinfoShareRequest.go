@@ -1,8 +1,8 @@
 package user
 
 import (
-  "github.com/LayGit/antsdk/api"
-  "github.com/LayGit/antsdk/utils"
+  "github.com/kelvinji2009/antsdk/api"
+  "github.com/kelvinji2009/antsdk/utils"
 )
 
 // 支付宝钱包用户信息共享

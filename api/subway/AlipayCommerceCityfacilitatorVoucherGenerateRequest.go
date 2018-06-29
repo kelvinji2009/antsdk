@@ -1,8 +1,8 @@
 package subway
 
 import (
-  "github.com/LayGit/antsdk/api"
-  "github.com/LayGit/antsdk/utils"
+  "github.com/kelvinji2009/antsdk/api"
+  "github.com/kelvinji2009/antsdk/utils"
 )
 
 // 地铁购票核销码发码
