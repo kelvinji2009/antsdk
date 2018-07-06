@@ -75,11 +75,13 @@ func (this *AlipayClient) ExecuteWithAppAuthToken(request, response interface{},
 	// 验签
 	strResp := string(bResult)
 
+	//TODO: https://docs.open.alipay.com/200/106120  rewrite verifySign
 	// 正则验签
 	expResult := `(^\{\"[a-z|_]+\":)|(,\"sign\":\"[a-zA-Z0-9|\+|\/|\=]+\"\}$)`
 	//exptSign := `\"sign\":\"([a-zA-Z0-9|\+|\/|\=]+)\"`
 	regResult := regexp.MustCompile(expResult)
 	result := regResult.ReplaceAllString(strResp, "")
+
 	// FIXME: skip sign verify
 	// regSign := regexp.MustCompile(exptSign)
 	// signMatchRes := regSign.FindStringSubmatch(strResp)

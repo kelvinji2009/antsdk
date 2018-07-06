@@ -105,7 +105,7 @@ func RSASign(origData string, privateKey *rsa.PrivateKey) (string, error) {
 	return string(data), nil
 }
 
-// 同步返回验签
+// 同步返回验签 https://docs.open.alipay.com/200/106120
 func SyncVerifySign(sign string, body, alipayPublicKey []byte) (bool, error) {
 	return RSAVerify(body, []byte(sign), alipayPublicKey)
 }
@@ -144,7 +144,7 @@ func RSAVerify(src, sign, alipayPublicKey []byte) (bool, error) {
 	}
 	rsaPub, _ := pub.(*rsa.PublicKey)
 
-	// 计算代签名字串的哈希
+	// 计算待签名字串的哈希
 	t := hash.New()
 	io.WriteString(t, string(src))
 	digest := t.Sum(nil)
